@@ -1,0 +1,34 @@
+$kate: black;
+$suo: rgb(255, 14, 14);
+
+@mixin box-shadow{
+    box-shadow: inset;
+
+}
+button{
+    @include box-shadow(0 10 )
+}
+
+nav{
+    ul{
+     color: blue;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;        
+    }
+
+    li{
+       list-style: none;
+       font size: 52px;
+       color:suo;
+       gap: 20px;
+
+       &:hover{
+        color: rgb(247, 247, 16);
+       }
+
+
+    }
+       
+}
